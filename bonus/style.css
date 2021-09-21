@@ -5,6 +5,28 @@
   }
   
 
+  nav ul{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 999;
+}
+
+nav li{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+li a{
+    color: black;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
 
   .differente{
     background-color: red;
